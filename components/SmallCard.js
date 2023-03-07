@@ -4,9 +4,12 @@ function SmallCard({ img, location, distance }) {
   return (
     <div>
       <div className="relative h-16 w-16">
-        <Image src={img} layout="fill" alt="icon" />
+        <Image className=" h-6 w-6 " src={img} alt="icon" />
       </div>
-      <div></div>
+      <div>
+        <h2>{location}</h2>
+        <h3>{distance}</h3>
+      </div>
     </div>
   );
 }
