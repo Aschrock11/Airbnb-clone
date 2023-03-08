@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 function Header() {
   return (
     <header className=" sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10 ">
@@ -10,6 +10,7 @@ function Header() {
           objectFit="contain"
           objectPosition="left"
           alt="image"
+          priority="true"
         />
       </div>
       <div className="flex items-center md:border-2 rounded-full  py-2 md:shadow-sm ">
