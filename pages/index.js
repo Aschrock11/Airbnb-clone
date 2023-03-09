@@ -6,6 +6,7 @@ import SmallCard from "../components/SmallCard";
 import MediumCard from "../components/MediumCard";
 import LargeCard from "../components/LargeCard";
 import Footer from "../components/Footer";
+
 const Home = ({ exploreData, cardsData }) => {
   return (
     <div>
