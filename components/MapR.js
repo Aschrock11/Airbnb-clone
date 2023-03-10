@@ -12,17 +12,14 @@ function MapR({ searchResult }) {
     longitude: -122.4376,
     zoom: 11,
   });
-  // Transform the search results into the {latitiude: 34.345235, longitude: 53.4565464}
+
   const coordinates = searchResult.map((result) => ({
     latitude: result.lat,
     longitude: result.long,
   }));
-  // console.log(coordinates);
-  // const center = getCenter([coordinates]);
-  const lol = getCenter(coordinates);
-  console.log(lol);
 
-  // console.log(getCenter([coordinates]));
+  const lol = getCenter(coordinates);
+
   return (
     <Map
       mapStyle="mapbox://styles/aschrock11/clf1mte1l009b01nz1n4katmn"
