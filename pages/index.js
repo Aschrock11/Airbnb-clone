@@ -65,7 +65,7 @@ export async function getStaticProps() {
   ).then((response) => response.json());
 
   const cardsData = await fetch(
-    "https://airbnb-clone-rouge-chi.vercel.app/api/airbnbData"
+    "https://airbnb-clone-rouge-chi.vercel.app/api/largeCardData"
   ).then((response) => response.json());
 
   return {
