@@ -14,6 +14,10 @@ function Header({ placeholder }) {
   const [noOfGuests, setNoOfGuests] = useState(1);
   const router = Router;
 
+  const handleGlobe = () => {
+    Router.push({ pathname: "/api/airbnbData" });
+  };
+
   const handleSelect = (ranges) => {
     setStartDate(ranges.selection.startDate);
     setEndDate(ranges.selection.endDate);
@@ -86,7 +90,8 @@ function Header({ placeholder }) {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="h-6 cursor-pointer  "
+          className="h-6 cursor-pointer"
+          onClick={handleGlobe}
         >
           <path
             strokeLinecap="round"
