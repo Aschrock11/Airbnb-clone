@@ -25,9 +25,9 @@ const Home = ({ exploreData, cardsData }) => {
             Explore Nearby
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {exploreData?.map(({ img, distance, location }) => (
+            {exploreData?.map(({ key, img, distance, location }) => (
               <SmallCard
-                key={img}
+                key={key}
                 img={img}
                 location={location}
                 distance={distance}
@@ -59,19 +59,19 @@ const Home = ({ exploreData, cardsData }) => {
 
 export default Home;
 
-// export async function getStaticProps() {
-//   const exploreData = await fetch("/api/airbnbData").then((response) =>
-//     response.json()
-//   );
+export async function getStaticProps() {
+  const exploreData = await fetch(
+    "https://airbnb-clone-rouge-chi.vercel.app/api/airbnbData"
+  ).then((response) => response.json());
 
-//   const cardsData = await fetch("/api/airbnbData").then((response) =>
-//     response.json()
-//   );
+  const cardsData = await fetch(
+    "https://airbnb-clone-rouge-chi.vercel.app/api/airbnbData"
+  ).then((response) => response.json());
 
-//   return {
-//     props: {
-//       exploreData,
-//       cardsData,
-//     },
-//   };
-// }
+  return {
+    props: {
+      exploreData,
+      cardsData,
+    },
+  };
+}

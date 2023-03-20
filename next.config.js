@@ -3,7 +3,7 @@ module.exports = {
   reactStrictMode: true,
 
   images: {
-    domains: ["links.papareact.com"],
+    domains: ["links.papareact.com", "www.google.com"],
   },
   env: {
     mapbox_key:
