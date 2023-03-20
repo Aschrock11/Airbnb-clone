@@ -3,7 +3,7 @@ export default function handler(req, res) {
     {
       key: "1",
 
-      img: "./public/missingImages/1to.webp",
+      img: "/public/missingImages/1to.webp",
 
       location: "London",
 
@@ -11,7 +11,7 @@ export default function handler(req, res) {
     },
     {
       key: "2",
-      img: "./public/missingImages/2k3.webp",
+      img: "/public/missingImages/2k3.webp",
 
       location: "Cardiff",
 
