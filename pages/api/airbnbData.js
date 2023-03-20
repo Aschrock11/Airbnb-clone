@@ -3,7 +3,7 @@ export default function handler(req, res) {
     {
       key: "1",
 
-      img: "/public/missingImages/1to.webp",
+      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F5j2&w=3840&q=75",
 
       location: "London",
 
@@ -11,7 +11,7 @@ export default function handler(req, res) {
     },
     {
       key: "2",
-      img: "/public/missingImages/2k3.webp",
+      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F1to&w=3840&q=75",
 
       location: "Cardiff",
 
