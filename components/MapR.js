@@ -26,6 +26,16 @@ function MapR({ searchResult }) {
       mapboxAccessToken={process.env.mapbox_key}
       {...viewport}
       onMove={(nextViewport) => setViewport(nextViewport.viewport)}
+      {...searchResult.map((result) => (
+        <div key={result.long}>
+          <Marker
+            longitude={result.long}
+            latitude={result.lat}
+            offsetLeft={-20}
+            offsetTop={-10}
+          ></Marker>
+        </div>
+      ))}
     ></Map>
   );
 }

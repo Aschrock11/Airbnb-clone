@@ -58,19 +58,20 @@ const Home = ({ exploreData, cardsData }) => {
 };
 
 export default Home;
-export async function getStaticProps() {
-  const exploreData = await fetch("https://www.jsonkeeper.com/b/4G1G").then(
-    (response) => response.json()
-  );
 
-  const cardsData = await fetch("https://www.jsonkeeper.com/b/VHHT").then(
-    (response) => response.json()
-  );
+// export async function getStaticProps() {
+//   const exploreData = await fetch("/api/airbnbData").then((response) =>
+//     response.json()
+//   );
 
-  return {
-    props: {
-      exploreData,
-      cardsData,
-    },
-  };
-}
+//   const cardsData = await fetch("/api/airbnbData").then((response) =>
+//     response.json()
+//   );
+
+//   return {
+//     props: {
+//       exploreData,
+//       cardsData,
+//     },
+//   };
+// }
