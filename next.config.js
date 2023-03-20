@@ -3,7 +3,11 @@ module.exports = {
   reactStrictMode: true,
 
   images: {
-    domains: ["links.papareact.com", "www.google.com"],
+    domains: [
+      "links.papareact.com",
+      "www.google.com",
+      "airbnb-clone-rouge-chi.vercel.app",
+    ],
   },
   env: {
     mapbox_key:

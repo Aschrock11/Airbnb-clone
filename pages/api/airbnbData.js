@@ -7,63 +7,63 @@ export default function handler(req, res) {
 
       location: "London",
 
-      distance: "30-minute drive",
+      distance: "45-minute drive",
     },
     {
       key: "2",
       img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F1to&w=3840&q=75",
 
-      location: "Cardiff",
+      location: "Manchester",
 
-      distance: "2-hour drive",
+      distance: "4.5-hour drive",
     },
     {
       key: "3",
-      img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FD2G39D%2Fillustration-of-a-beautiful-cartoon-city-road-going-downtown-D2G39D.jpg&tbnid=dPr5ds3260KqOM&vet=12ahUKEwjO_NaArOn9AhXcFt4AHWOtCC0QMygFegUIARDZAQ..i&imgrefurl=https%3A%2F%2Fwww.alamy.com%2Fstock-photo%2Fcartoon-city.html&docid=KGSE29reX7Uo1M&w=1007&h=1390&q=cartoon%20images%20of%20cities&ved=2ahUKEwjO_NaArOn9AhXcFt4AHWOtCC0QMygFegUIARDZAQ",
+      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F40m&w=3840&q=75",
 
-      location: "Columbus",
+      location: "Liverpool",
 
-      distance: "30-minute drive",
+      distance: "4.5-hour drive",
     },
     {
       key: "4",
-      img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FD2G39D%2Fillustration-of-a-beautiful-cartoon-city-road-going-downtown-D2G39D.jpg&tbnid=dPr5ds3260KqOM&vet=12ahUKEwjO_NaArOn9AhXcFt4AHWOtCC0QMygFegUIARDZAQ..i&imgrefurl=https%3A%2F%2Fwww.alamy.com%2Fstock-photo%2Fcartoon-city.html&docid=KGSE29reX7Uo1M&w=1007&h=1390&q=cartoon%20images%20of%20cities&ved=2ahUKEwjO_NaArOn9AhXcFt4AHWOtCC0QMygFegUIARDZAQ",
+      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fmsp&w=3840&q=75",
 
-      location: "Columbus",
+      location: "York",
 
-      distance: "30-minute drive",
+      distance: "4-hour drive",
     },
     {
       key: "5",
-      img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FD2G39D%2Fillustration-of-a-beautiful-cartoon-city-road-going-downtown-D2G39D.jpg&tbnid=dPr5ds3260KqOM&vet=12ahUKEwjO_NaArOn9AhXcFt4AHWOtCC0QMygFegUIARDZAQ..i&imgrefurl=https%3A%2F%2Fwww.alamy.com%2Fstock-photo%2Fcartoon-city.html&docid=KGSE29reX7Uo1M&w=1007&h=1390&q=cartoon%20images%20of%20cities&ved=2ahUKEwjO_NaArOn9AhXcFt4AHWOtCC0QMygFegUIARDZAQ",
+      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F2k3&w=3840&q=75",
 
-      location: "Columbus",
+      location: "Cardiff",
 
-      distance: "30-minute drive",
+      distance: "45-minute drive",
     },
     {
       key: "6",
-      img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FD2G39D%2Fillustration-of-a-beautiful-cartoon-city-road-going-downtown-D2G39D.jpg&tbnid=dPr5ds3260KqOM&vet=12ahUKEwjO_NaArOn9AhXcFt4AHWOtCC0QMygFegUIARDZAQ..i&imgrefurl=https%3A%2F%2Fwww.alamy.com%2Fstock-photo%2Fcartoon-city.html&docid=KGSE29reX7Uo1M&w=1007&h=1390&q=cartoon%20images%20of%20cities&ved=2ahUKEwjO_NaArOn9AhXcFt4AHWOtCC0QMygFegUIARDZAQ",
+      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fynx&w=3840&q=75",
 
-      location: "Columbus",
+      location: "Birkenhead",
 
-      distance: "30-minute drive",
+      distance: "4.5-hour drive",
     },
     {
       key: "7",
-      img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FD2G39D%2Fillustration-of-a-beautiful-cartoon-city-road-going-downtown-D2G39D.jpg&tbnid=dPr5ds3260KqOM&vet=12ahUKEwjO_NaArOn9AhXcFt4AHWOtCC0QMygFegUIARDZAQ..i&imgrefurl=https%3A%2F%2Fwww.alamy.com%2Fstock-photo%2Fcartoon-city.html&docid=KGSE29reX7Uo1M&w=1007&h=1390&q=cartoon%20images%20of%20cities&ved=2ahUKEwjO_NaArOn9AhXcFt4AHWOtCC0QMygFegUIARDZAQ",
+      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fkji&w=3840&q=75",
 
-      location: "Columbus",
+      location: "Newquay",
 
-      distance: "30-minute drive",
+      distance: "6-hour drive",
     },
     {
       key: "8",
-      img: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc8.alamy.com%2Fcomp%2FD2G39D%2Fillustration-of-a-beautiful-cartoon-city-road-going-downtown-D2G39D.jpg&tbnid=dPr5ds3260KqOM&vet=12ahUKEwjO_NaArOn9AhXcFt4AHWOtCC0QMygFegUIARDZAQ..i&imgrefurl=https%3A%2F%2Fwww.alamy.com%2Fstock-photo%2Fcartoon-city.html&docid=KGSE29reX7Uo1M&w=1007&h=1390&q=cartoon%20images%20of%20cities&ved=2ahUKEwjO_NaArOn9AhXcFt4AHWOtCC0QMygFegUIARDZAQ",
+      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F41m&w=3840&q=75",
 
-      location: "Columbus",
+      location: "Hove",
 
-      distance: "30-minute drive",
+      distance: "2-hour drive",
     },
   ]);
 }
