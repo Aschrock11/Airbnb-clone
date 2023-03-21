@@ -17,7 +17,7 @@ export default function handler(req, res) {
       img: "https://a0.muscache.com/im/pictures/prohost-api/Hosting-51496964/original/72bc65b6-5a1e-4fa8-80a2-a4fdc70278b1.jpeg?im_w=1200",
       description: "2 guests - 1 bedroom - 1 bed - 1 bath",
       lat: "51.5117",
-      location: "Covent Garden",
+      location: "Aparment in Covent Garden",
       long: "0.1240",
       price: "$269 night",
       star: "4.81",
