@@ -7,6 +7,7 @@ module.exports = {
       "links.papareact.com",
       "www.google.com",
       "airbnb-clone-rouge-chi.vercel.app",
+      "a0.muscache.com",
     ],
   },
   env: {

@@ -10,7 +10,7 @@ export default function handler(req, res) {
       price: "$220 night",
       star: "4.74",
       title: "Fresh Designed Home next to Green Park",
-      total: "$1,353",
+      total: "$1,353 total",
     },
     {
       key: "2",
@@ -22,7 +22,7 @@ export default function handler(req, res) {
       price: "$269 night",
       star: "4.81",
       title: "Covent Garden 1 Bedroom",
-      total: "$1,836",
+      total: "$1,836 total",
     },
     {
       key: "3",
@@ -34,7 +34,7 @@ export default function handler(req, res) {
       price: "$200 night",
       star: "4.81",
       title: "London on your doorstep! Live like a local in Soho",
-      total: "$1,637",
+      total: "$1,637 total",
     },
     {
       key: "4",
@@ -46,7 +46,7 @@ export default function handler(req, res) {
       price: "$345 night",
       star: "4.53",
       title: "Luxury 1-bedroom apartment in Marylebone",
-      total: "$1,797",
+      total: "$1,797 total",
     },
     {
       key: "5",
@@ -58,7 +58,7 @@ export default function handler(req, res) {
       price: "$249 night",
       star: "New",
       title: "Stunning 1 Bedroom Apartment in Holborn, London",
-      total: "$1,368",
+      total: "$1,368 total",
     },
     {
       key: "6",
@@ -70,7 +70,7 @@ export default function handler(req, res) {
       price: "$165 night",
       star: "4.22",
       title: "Piccadilly Studio Apartment!",
-      total: "$1,096",
+      total: "$1,096 total",
     },
     {
       key: "7",
@@ -82,7 +82,7 @@ export default function handler(req, res) {
       price: "$106 night",
       star: "5.0",
       title: "Cosy Double room - heart of Waterloo/Southbank",
-      total: "$642",
+      total: "$642 total",
     },
     {
       key: "8",
@@ -94,7 +94,7 @@ export default function handler(req, res) {
       price: "$207",
       star: "4.8",
       title: "New Luxury Central London Flat / Apartment - Zone1",
-      total: "$1,259",
+      total: "$1,259 total",
     },
   ]);
 }

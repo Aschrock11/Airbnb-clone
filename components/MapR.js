@@ -28,12 +28,12 @@ function MapR({ searchResult }) {
       onMove={(nextViewport) => setViewport(nextViewport.viewport)}
       {...searchResult.map((result) => (
         <div key={result.long}>
-          <Marker
+          {/* <Marker
             longitude={result.long}
             latitude={result.lat}
             offsetLeft={-20}
             offsetTop={-10}
-          ></Marker>
+          ></Marker> */}
         </div>
       ))}
     ></Map>

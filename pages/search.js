@@ -63,7 +63,9 @@ function Search({ searchResult }) {
 export default Search;
 
 export async function getServerSideProps() {
-  const searchResult = await fetch("").then((res) => res.json());
+  const searchResult = await fetch(
+    "https://airbnb-clone-rouge-chi.vercel.app/api/searchData"
+  ).then((res) => res.json());
   return {
     props: {
       searchResult,
