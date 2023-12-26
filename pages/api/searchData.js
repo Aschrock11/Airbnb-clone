@@ -91,7 +91,7 @@ export default function handler(req, res) {
       lat: "51.4959",
       location: "Apartment in Elephant and Castle",
       long: "0.1005",
-      price: "$207",
+      price: "$207 night",
       star: "4.8",
       title: "New Luxury Central London Flat / Apartment - Zone1",
       total: "$1,259 total",

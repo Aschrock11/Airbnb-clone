@@ -1,18 +1,10 @@
 import { constants } from "buffer";
 import * as React from "react";
 import { useState } from "react";
-import Map from "react-map-gl";
+import Map, { Marker, Popup } from "react-map-gl";
 import getCenter from "geolib/es/getCenter";
 
 function MapR({ searchResult }) {
-  const [viewport, setViewport] = useState({
-    width: "100%",
-    height: "100%",
-    latitude: 51.478298,
-    longitude: -0.297954,
-    zoom: 11,
-  });
-
   const coordinates = searchResult.map((result) => ({
     latitude: result.lat,
     longitude: result.long,
@@ -20,7 +12,13 @@ function MapR({ searchResult }) {
 
   const centerCoordinates = getCenter(coordinates);
 
-  console.log(centerCoordinates);
+  const [viewport, setViewport] = useState({
+    width: "100%",
+    height: "100%",
+    latitude: centerCoordinates.latitude,
+    longitude: centerCoordinates.longitude,
+    zoom: 9,
+  });
 
   return (
     <Map
@@ -30,12 +28,25 @@ function MapR({ searchResult }) {
       onMove={(nextViewport) => setViewport(nextViewport.viewport)}
       {...searchResult.map((result) => (
         <div key={result.long}>
+          <Marker
+            longitude={centerCoordinates.longitude}
+            latitude={centerCoordinates.latitude}
+            color="#61dbfd"
+          >
+            <img src="./pin.png" />
+          </Marker>
           {/* <Marker
             longitude={result.long}
             latitude={result.lat}
             offsetLeft={-20}
             offsetTop={-10}
-          ></Marker> */}
+          >
+            <img
+              className=" h-10 w-10 "
+              src="https://png.pngtree.com/png-clipart/20191120/original/pngtree-pin-icon-and-symbol-isolated-png-image_5045497.jpg"
+              alt="pin-icon"
+            />
+          </Marker> */}
         </div>
       ))}
     ></Map>
