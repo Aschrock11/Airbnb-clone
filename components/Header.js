@@ -45,7 +45,7 @@ function Header({ placeholder }) {
   };
 
   return (
-    <header className=' sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10 '>
+    <header className=' sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10 overflow-x-scroll '>
       <div
         onClick={() => router.push('/')}
         className=' relative flex items-center h-10 cursor-pointer my-auto '
@@ -64,7 +64,7 @@ function Header({ placeholder }) {
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
           type=''
-          placeholder={placeholder || "Start your search try 'London' "}
+          placeholder={placeholder || 'Start your search'}
           name=''
           id=''
           className=' pl-5 bg-transparent outline-none flex-grow text-gray-600 text-sm placeholder-gray-400'
@@ -129,8 +129,9 @@ function Header({ placeholder }) {
         </div>
       </div>
       {searchInput && (
-        <div className=' flex flex-col col-span-3 mx-auto mt-5'>
+        <div className=' flex flex-col col-span-3 mt-5 mx-auto'>
           <DateRangePicker
+            className=''
             ranges={[selectionRange]}
             minDate={new Date()}
             rangeColors={['#FD5B61']}

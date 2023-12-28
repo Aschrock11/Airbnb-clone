@@ -1,69 +1,69 @@
 export default function handler(req, res) {
   res.status(200).json([
     {
-      key: "1",
+      key: '1',
 
-      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F5j2&w=3840&q=75",
+      img: 'https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F5j2&w=3840&q=75',
 
-      location: "London",
+      location: 'London',
 
-      distance: "45-minute drive",
+      distance: '45-minute drive',
     },
     {
-      key: "2",
-      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F1to&w=3840&q=75",
+      key: '2',
+      img: 'https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F1to&w=3840&q=75',
 
-      location: "Manchester",
+      location: 'Manchester',
 
-      distance: "4.5-hour drive",
+      distance: '4.5-hour drive',
     },
     {
-      key: "3",
-      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F40m&w=3840&q=75",
+      key: '3',
+      img: 'https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F40m&w=3840&q=75',
 
-      location: "Liverpool",
+      location: 'Liverpool',
 
-      distance: "4.5-hour drive",
+      distance: '4.5-hour drive',
     },
     {
-      key: "4",
-      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fmsp&w=3840&q=75",
+      key: '4',
+      img: 'https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fmsp&w=3840&q=75',
 
-      location: "York",
+      location: 'York',
 
-      distance: "4-hour drive",
+      distance: '4-hour drive',
     },
     {
-      key: "5",
-      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F2k3&w=3840&q=75",
+      key: '5',
+      img: 'https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F2k3&w=3840&q=75',
 
-      location: "Cardiff",
+      location: 'Cardiff',
 
-      distance: "45-minute drive",
+      distance: '45-minute drive',
     },
     {
-      key: "6",
-      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fynx&w=3840&q=75",
+      key: '6',
+      img: 'https://a0.muscache.com/im/pictures/3d541658-fb05-4316-af26-b8c1337fbe8c.jpg?im_w=240',
 
-      location: "Birkenhead",
+      location: 'Birkenhead',
 
-      distance: "4.5-hour drive",
+      distance: '4.5-hour drive',
     },
     {
-      key: "7",
-      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fkji&w=3840&q=75",
+      key: '7',
+      img: 'https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fkji&w=3840&q=75',
 
-      location: "Newquay",
+      location: 'Newquay',
 
-      distance: "6-hour drive",
+      distance: '6-hour drive',
     },
     {
-      key: "8",
-      img: "https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F41m&w=3840&q=75",
+      key: '8',
+      img: 'https://airbnb-clone-rouge-chi.vercel.app/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F41m&w=3840&q=75',
 
-      location: "Hove",
+      location: 'Hove',
 
-      distance: "2-hour drive",
+      distance: '2-hour drive',
     },
   ]);
 }
